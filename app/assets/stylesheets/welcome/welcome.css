@@ -4,9 +4,10 @@ body {
   list-style-type: none;
 }
 
-div {
+.header {
   border-style:solid;
   border-width:10px;
+  border-bottom-width:10px;
   border-color:#0772A1;
 }
 
@@ -24,3 +25,13 @@ p {
   font-family:"verdana";
   text-align:center;
 }
+
+/*.image {
+  text-align:center;
+  border-style:solid;
+  border-right-width:140px;
+  border-left-width:140px;
+  border-top-width:0px;
+  border-bottom-width:0px;
+  border-color:#0772A1;
+}*/

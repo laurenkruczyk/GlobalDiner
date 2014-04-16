@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'simple_form'
 gem 'foundation-rails'
 gem 'devise'
+gem 'chosen-rails'
 
 group :test, :development do 
   gem 'rspec-rails'

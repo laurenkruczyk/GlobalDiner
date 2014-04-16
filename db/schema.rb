@@ -11,10 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140415193714) do
+ActiveRecord::Schema.define(version: 20140416193321) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "countries", force: true do |t|
+    t.string   "name",       null: false
+    t.string   "iso",        null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "meals", force: true do |t|
+    t.integer  "country_id", null: false
+    t.string   "name",       null: false
+    t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "meals", ["country_id"], name: "index_meals_on_country_id", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "",    null: false

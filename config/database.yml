@@ -17,7 +17,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: food_scrambler_development
+  database: global_diner_development
   pool: 5
   username:
   password:
@@ -46,7 +46,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: food_scrambler_test
+  database: global_diner_test
   pool: 5
   username: 
   password:
@@ -54,7 +54,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: food_scrambler_production
+  database: global_diner_production
   pool: 5
   username: 
   password:

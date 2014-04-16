@@ -12,9 +12,22 @@
   </head>
 
   <body>
-
-    <%= render 'layouts/messages' %>
+    <nav>
+  
+      <ul>
+        <%= render 'layouts/messages'%>
+        <% if user_signed_in? %>
+          <%= "Welcome #{current_user.first_name}"%>
+         <li type="none"> <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %> </li>
+        <% else %>
+          <li type="none"> <%= link_to 'Sign Up', new_user_registration_path %> </li>
+         <%= render 'layouts/messages' %>  
+        <% end %>
+      </ul>
+      
+    </nav>
     <%= yield %>
     <%= javascript_include_tag "application" %>
+    <%= yield :extra_footer %>
   </body>
 </html>

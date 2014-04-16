@@ -12,4 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require vendor/jquery-jvectormap-1.2.2.min
+//= require maps/world-map 
+//= require chosen-jquery
 //= require_tree .
+
+$(function(){
+  $('.chosen').chosen();
+})

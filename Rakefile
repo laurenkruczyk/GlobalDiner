@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-FoodScrambler::Application.load_tasks
+GlobalDiner::Application.load_tasks

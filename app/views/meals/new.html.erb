@@ -1,0 +1,5 @@
+<%= simple_form_for @meal do |f| %>
+  <%= f.input :name %>
+  <%= f.input :url %>
+  <%= f.association :country, label_method: :name, input_html: {class: 'chosen'}, include_blank: false %>
+<% end %>
