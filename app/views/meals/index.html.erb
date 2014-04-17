@@ -1,0 +1,14 @@
+<p>Meals</p>
+
+<% @meals.each do |meal| %>
+  <body>
+    <div>
+      <ul type="none">
+        <li> Recipe Name: <%= meal.name %></li>
+        <li> Recipe URL: <%= meal.url %></li>
+        <li> Country: <%= meal.country.name%></li>
+      </ul>
+    </div>
+  </body>
+
+<% end %>

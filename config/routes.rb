@@ -4,11 +4,11 @@ GlobalDiner::Application.routes.draw do
   devise_for :users
     root "welcome#index"
 
-  resources :meals
+  resources :countries do
+     resource :meal
+   end
 
-  # resources :users do
-  #     resources :worldmaps, controller: 'users/user_id/worldmaps'
-  # end
+  resources :meals
 
   get 'worldmap' => 'worldmap#index'
   

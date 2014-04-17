@@ -1,0 +1,13 @@
+<p> Countries </p>
+<% @countries.each do |country| %>
+<body>
+  <div>
+    <ul>
+      <li type="none"> <%= country.name %>
+         : <%= country.iso %>
+      </li>
+    </ul>
+  </div>
+</body>
+
+<% end %>
