@@ -9815,3 +9815,2109 @@ Processing by MealsController#index as HTML
   Rendered layouts/_messages.html.erb (0.2ms)
   Rendered layouts/_messages.html.erb (0.0ms)
 Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-16 22:04:20 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-16 22:04:25 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-16 22:32:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-04-17 07:40:06 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (2.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (67.2ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 142ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-04-17 07:40:07 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (22.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-04-17 07:40:09 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (7.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-04-17 07:40:11 -0400
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-17 07:40:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-17 07:40:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-17 10:53:45 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 10:53:49 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-04-17 10:53:53 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2014-04-17 10:54:01 -0400
+Processing by CountriesController#index as HTML
+  [1m[36mCountry Load (14.5ms)[0m  [1mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (24.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 38ms (Views: 22.8ms | ActiveRecord: 14.5ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 10:54:06 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Meal without an ID):
+  app/controllers/meals_controller.rb:20:in `show'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.8ms)
+
+
+Started GET "/countries/1/meals" for 127.0.0.1 at 2014-04-17 10:54:11 -0400
+
+ActionController::RoutingError (No route matches [GET] "/countries/1/meals"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.7ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (37.7ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 10:54:14 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+Completed 404 Not Found in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Meal without an ID):
+  app/controllers/meals_controller.rb:20:in `show'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/meals" for 127.0.0.1 at 2014-04-17 10:54:23 -0400
+Processing by MealsController#index as HTML
+  [1m[35mMeal Load (1.5ms)[0m  SELECT "meals".* FROM "meals"
+  [1m[36mCountry Load (2.7ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 112]]
+  [1m[35mCountry Load (0.5ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 231]]
+  [1m[36mCountry Load (0.4ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 105]]
+  Rendered meals/index.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 22.4ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2014-04-17 10:54:34 -0400
+Processing by CountriesController#index as HTML
+  [1m[35mCountry Load (2.2ms)[0m  SELECT "countries".* FROM "countries"
+  Rendered countries/index.html.erb within layouts/application (15.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 10:54:36 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+Completed 404 Not Found in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Meal without an ID):
+  app/controllers/meals_controller.rb:20:in `show'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.5ms)
+
+
+Started GET "/countries/1/meal/new" for 127.0.0.1 at 2014-04-17 10:54:37 -0400
+Processing by MealsController#new as HTML
+  Parameters: {"country_id"=>"1"}
+  [1m[36mCountry Load (1.7ms)[0m  [1mSELECT "countries".* FROM "countries"[0m
+  Rendered meals/new.html.erb within layouts/application (21.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 32ms (Views: 29.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 10:55:19 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+  Rendered meals/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1/meal/new" for 127.0.0.1 at 2014-04-17 10:55:23 -0400
+Processing by MealsController#new as HTML
+  Parameters: {"country_id"=>"1"}
+  [1m[35mCountry Load (2.8ms)[0m  SELECT "countries".* FROM "countries"
+  Rendered meals/new.html.erb within layouts/application (53.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 74ms (Views: 46.6ms | ActiveRecord: 15.8ms)
+
+
+Started POST "/meals" for 127.0.0.1 at 2014-04-17 10:55:42 -0400
+Processing by MealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DPm//3rdOuYrubJ72uz7VPX0DbYkunyy/M9L1bqvLH0=", "meal"=>{"name"=>"", "url"=>"", "country_id"=>"1"}, "commit"=>"Create Meal"}
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (7.3ms)[0m  INSERT INTO "meals" ("country_id", "created_at", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["country_id", 1], ["created_at", Thu, 17 Apr 2014 14:55:42 UTC +00:00], ["name", ""], ["updated_at", Thu, 17 Apr 2014 14:55:42 UTC +00:00], ["url", ""]]
+  [1m[36m (5.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/meals
+Completed 302 Found in 20ms (ActiveRecord: 13.1ms)
+
+
+Started GET "/meals" for 127.0.0.1 at 2014-04-17 10:55:42 -0400
+Processing by MealsController#index as HTML
+  [1m[35mMeal Load (0.5ms)[0m  SELECT "meals".* FROM "meals"
+  [1m[36mCountry Load (0.7ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 112]]
+  [1m[35mCountry Load (0.4ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 231]]
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 105]]
+  [1m[35mCountry Load (0.2ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered meals/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/countries/1/meal/new" for 127.0.0.1 at 2014-04-17 10:55:51 -0400
+Processing by MealsController#new as HTML
+  Parameters: {"country_id"=>"1"}
+  [1m[36mCountry Load (2.0ms)[0m  [1mSELECT "countries".* FROM "countries"[0m
+  Rendered meals/new.html.erb within layouts/application (30.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 38.3ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/meals" for 127.0.0.1 at 2014-04-17 10:55:55 -0400
+Processing by MealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DPm//3rdOuYrubJ72uz7VPX0DbYkunyy/M9L1bqvLH0=", "meal"=>{"name"=>"", "url"=>"", "country_id"=>"1"}, "commit"=>"Create Meal"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "meals" ("country_id", "created_at", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["country_id", 1], ["created_at", Thu, 17 Apr 2014 14:55:55 UTC +00:00], ["name", ""], ["updated_at", Thu, 17 Apr 2014 14:55:55 UTC +00:00], ["url", ""]]
+  [1m[35m (8.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/meals
+Completed 302 Found in 14ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/meals" for 127.0.0.1 at 2014-04-17 10:55:55 -0400
+Processing by MealsController#index as HTML
+  [1m[36mMeal Load (0.4ms)[0m  [1mSELECT "meals".* FROM "meals"[0m
+  [1m[35mCountry Load (0.5ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 112]]
+  [1m[36mCountry Load (0.6ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 231]]
+  [1m[35mCountry Load (0.4ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 105]]
+  [1m[36mCountry Load (0.2ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered meals/index.html.erb within layouts/application (15.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 15.2ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/meals" for 127.0.0.1 at 2014-04-17 10:56:00 -0400
+Processing by MealsController#index as HTML
+  [1m[36mMeal Load (0.5ms)[0m  [1mSELECT "meals".* FROM "meals"[0m
+  [1m[35mCountry Load (0.4ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 112]]
+  [1m[36mCountry Load (0.4ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 231]]
+  [1m[35mCountry Load (0.4ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 105]]
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered meals/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/meals" for 127.0.0.1 at 2014-04-17 10:56:43 -0400
+Processing by MealsController#index as HTML
+  [1m[36mMeal Load (0.4ms)[0m  [1mSELECT "meals".* FROM "meals"[0m
+  [1m[35mCountry Load (0.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 112]]
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 231]]
+  [1m[35mCountry Load (0.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 105]]
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered meals/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/meals" for 127.0.0.1 at 2014-04-17 10:56:44 -0400
+Processing by MealsController#index as HTML
+  [1m[36mMeal Load (0.4ms)[0m  [1mSELECT "meals".* FROM "meals"[0m
+  [1m[35mCountry Load (0.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 112]]
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 231]]
+  [1m[35mCountry Load (0.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 105]]
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered meals/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/meals" for 127.0.0.1 at 2014-04-17 10:56:48 -0400
+Processing by MealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DPm//3rdOuYrubJ72uz7VPX0DbYkunyy/M9L1bqvLH0=", "meal"=>{"name"=>"", "url"=>"", "country_id"=>"1"}, "commit"=>"Create Meal"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "meals" ("country_id", "created_at", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["country_id", 1], ["created_at", Thu, 17 Apr 2014 14:56:48 UTC +00:00], ["name", ""], ["updated_at", Thu, 17 Apr 2014 14:56:48 UTC +00:00], ["url", ""]]
+  [1m[36m (7.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/meals
+Completed 302 Found in 12ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/meals" for 127.0.0.1 at 2014-04-17 10:56:48 -0400
+Processing by MealsController#index as HTML
+  [1m[35mMeal Load (0.4ms)[0m  SELECT "meals".* FROM "meals"
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 112]]
+  [1m[35mCountry Load (0.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 231]]
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 105]]
+  [1m[35mCountry Load (0.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered meals/index.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/meals" for 127.0.0.1 at 2014-04-17 10:58:27 -0400
+Processing by MealsController#index as HTML
+  [1m[36mMeal Load (0.4ms)[0m  [1mSELECT "meals".* FROM "meals"[0m
+  [1m[35mCountry Load (0.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 112]]
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 231]]
+  [1m[35mCountry Load (0.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 105]]
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered meals/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 10:58:31 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmaps" for 127.0.0.1 at 2014-04-17 10:58:32 -0400
+
+ActionController::RoutingError (No route matches [GET] "/worldmaps"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (34.1ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 10:58:36 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-04-17 10:58:39 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 26.0ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-04-17 10:58:41 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2014-04-17 10:58:52 -0400
+Processing by CountriesController#index as HTML
+  [1m[35mCountry Load (1.8ms)[0m  SELECT "countries".* FROM "countries"
+  Rendered countries/index.html.erb within layouts/application (13.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 10:58:58 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Meal without an ID):
+  app/controllers/meals_controller.rb:20:in `show'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/countries/1/meal/new" for 127.0.0.1 at 2014-04-17 10:59:00 -0400
+Processing by MealsController#new as HTML
+  Parameters: {"country_id"=>"1"}
+  [1m[36mCountry Load (1.7ms)[0m  [1mSELECT "countries".* FROM "countries"[0m
+  Rendered meals/new.html.erb within layouts/application (32.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 40.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 10:59:03 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+Completed 404 Not Found in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Meal without an ID):
+  app/controllers/meals_controller.rb:20:in `show'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.1ms)
+
+
+Started GET "/countries/1/meals" for 127.0.0.1 at 2014-04-17 10:59:06 -0400
+
+ActionController::RoutingError (No route matches [GET] "/countries/1/meals"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (35.8ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 10:59:08 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+Completed 404 Not Found in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Meal without an ID):
+  app/controllers/meals_controller.rb:20:in `show'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/countries/1/meals" for 127.0.0.1 at 2014-04-17 10:59:51 -0400
+
+ActionController::RoutingError (No route matches [GET] "/countries/1/meals"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (35.7ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 11:00:08 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+Completed 404 Not Found in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Meal without an ID):
+  app/controllers/meals_controller.rb:20:in `show'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 11:00:52 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+  Rendered meals/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 11:01:05 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+  Rendered meals/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2014-04-17 11:01:08 -0400
+Processing by CountriesController#index as HTML
+  [1m[35mCountry Load (1.7ms)[0m  SELECT "countries".* FROM "countries"
+  Rendered countries/index.html.erb within layouts/application (12.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 19.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-17 11:01:12 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 11:01:17 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1" for 127.0.0.1 at 2014-04-17 11:01:34 -0400
+Processing by CountriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered countries/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-17 11:01:40 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+  Rendered meals/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1/meal/new" for 127.0.0.1 at 2014-04-17 11:01:45 -0400
+Processing by MealsController#new as HTML
+  Parameters: {"country_id"=>"1"}
+  [1m[36mCountry Load (2.1ms)[0m  [1mSELECT "countries".* FROM "countries"[0m
+  Rendered meals/new.html.erb within layouts/application (28.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 35.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/meals" for 127.0.0.1 at 2014-04-17 11:02:07 -0400
+Processing by MealsController#index as HTML
+  [1m[35mMeal Load (0.5ms)[0m  SELECT "meals".* FROM "meals"
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 112]]
+  [1m[35mCountry Load (0.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 231]]
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 105]]
+  [1m[35mCountry Load (0.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered meals/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/meals/1" for 127.0.0.1 at 2014-04-17 11:02:11 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered meals/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/meals/edit" for 127.0.0.1 at 2014-04-17 11:02:40 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendered meals/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-04-17 11:02:44 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-04-17 11:02:47 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 11:02:51 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 11:08:32 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 2799ms (Views: 2798.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 11:08:38 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 11:09:04 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 11:09:05 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 11:10:09 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 2331ms (Views: 2330.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 11:10:14 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 11:10:30 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 11:33:34 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 132ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-04-17 11:33:36 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (108.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 126ms (Views: 117.1ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-17 14:49:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 201ms (Views: 196.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 14:49:37 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-04-17 14:49:51 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (97.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 118ms (Views: 108.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-04-17 14:49:54 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-04-17 14:49:56 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-04-17 14:49:57 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-17 15:02:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-17 19:54:17 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 145ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-17 19:54:22 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-18 14:26:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 156ms (Views: 152.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 14:26:30 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ruby_gems/2" for 127.0.0.1 at 2014-04-18 14:28:06 -0400
+
+ActionController::RoutingError (No route matches [GET] "/ruby_gems/2"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.9ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (44.2ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-04-18 14:57:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (107.8ms)
+  Rendered layouts/_messages.html.erb (0.9ms)
+Completed 200 OK in 267ms (Views: 243.6ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 14:57:31 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:02:29 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 69ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:04:30 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:05:16 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:05:33 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:07:16 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:07:31 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 49ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:07:32 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:07:42 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 69ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:08:30 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:08:53 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:09:34 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:14:38 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:18:28 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:19:12 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:19:27 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:19:55 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 67ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:20:13 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:20:29 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:20:42 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:21:23 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:21:40 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:23:19 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:23:38 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:26:37 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:26:45 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:28:11 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:28:20 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:28:45 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:29:15 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:31:49 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:32:06 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:32:20 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:34:12 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:36:05 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:38:15 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:38:36 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:38:52 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 2579ms (Views: 2578.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:39:07 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 2664ms (Views: 2663.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:39:33 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 2393ms (Views: 2393.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:40:04 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 73ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:40:10 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 91ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:40:46 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 113ms (Views: 112.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:42:19 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:44:56 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 77ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:45:20 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 89ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:45:23 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:45:23 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:45:27 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:45:41 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:46:29 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:46:54 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:47:12 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:47:22 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:47:32 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:48:00 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:48:10 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:48:26 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:48:47 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:48:53 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:49:35 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:51:15 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 121ms (Views: 121.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:52:03 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:52:16 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:57:59 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:58:08 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:58:39 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:59:37 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 15:59:54 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:00:08 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 100ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:00:26 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/world-map" for 127.0.0.1 at 2014-04-18 16:00:27 -0400
+
+ActionController::RoutingError (No route matches [GET] "/world-map"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.2ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:00:39 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:00:39 -0400
+Processing by WorldmapController#index as */*
+  Rendered worldmap/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+Completed 200 OK in 18ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:01:34 -0400
+
+SyntaxError (/Users/lauren/Desktop/globaldiner/app/controllers/worldmap_controller.rb:5: syntax error, unexpected ':', expecting '}'
+      format.js {data: [{latLng: [-20.2, 57.5], name: 'Bluehole'}]}
+                      ^):
+  activesupport (4.0.4) lib/active_support/dependencies.rb:424:in `load'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:424:in `block in load_file'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:616:in `new_constants_in'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:423:in `load_file'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:324:in `require_or_load'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:463:in `load_missing_constant'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.0.4) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.4) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.4) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.4) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.4) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:535:in `get'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:566:in `constantize'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.4) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.4) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.4) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:674:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:373:in `_run__2442945457653394929__call__callbacks'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.4ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:02:19 -0400
+Processing by WorldmapController#index as HTML
+Completed 406 Not Acceptable in 5ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/worldmap_controller.rb:4:in `index'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.5ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:02:31 -0400
+Processing by WorldmapController#index as HTML
+Completed 406 Not Acceptable in 0ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/worldmap_controller.rb:4:in `index'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:02:32 -0400
+Processing by WorldmapController#index as HTML
+Completed 406 Not Acceptable in 0ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/worldmap_controller.rb:4:in `index'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:02:40 -0400
+Processing by WorldmapController#index as HTML
+Completed 406 Not Acceptable in 2ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/worldmap_controller.rb:4:in `index'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:03:35 -0400
+Processing by WorldmapController#index as HTML
+Completed 406 Not Acceptable in 37861ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/worldmap_controller.rb:5:in `index'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:04:13 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 136ms (Views: 132.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:04:13 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:04:42 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:04:43 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:04:46 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:04:47 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:05:51 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:05:52 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:09:55 -0400
+
+SyntaxError (/Users/lauren/Desktop/globaldiner/app/controllers/worldmap_controller.rb:6: syntax error, unexpected ':', expecting =>
+      format.json {render json: {data: [{'US': '20', 'GB': '100'}]}}
+                                              ^
+/Users/lauren/Desktop/globaldiner/app/controllers/worldmap_controller.rb:6: syntax error, unexpected ',', expecting '}'
+      format.json {render json: {data: [{'US': '20', 'GB': '100'}]}}
+                                                    ^
+/Users/lauren/Desktop/globaldiner/app/controllers/worldmap_controller.rb:6: syntax error, unexpected ':', expecting '}'
+      format.json {render json: {data: [{'US': '20', 'GB': '100'}]}}
+                                                          ^
+/Users/lauren/Desktop/globaldiner/app/controllers/worldmap_controller.rb:6: syntax error, unexpected ']', expecting keyword_end
+      format.json {render json: {data: [{'US': '20', 'GB': '100'}]}}
+                                                                  ^):
+  activesupport (4.0.4) lib/active_support/dependencies.rb:424:in `load'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:424:in `block in load_file'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:616:in `new_constants_in'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:423:in `load_file'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:324:in `require_or_load'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:463:in `load_missing_constant'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.0.4) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.4) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.4) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.4) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.4) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:535:in `get'
+  activesupport (4.0.4) lib/active_support/dependencies.rb:566:in `constantize'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.4) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.4) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.4) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.4) lib/action_dispatch/routing/route_set.rb:674:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:373:in `_run__2442945457653394929__call__callbacks'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lauren/.rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.5ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:10:14 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 124ms (Views: 119.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:10:15 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:10:27 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:10:27 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:10:55 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:10:55 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:11:09 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:11:09 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:11:30 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:11:30 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:11:49 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:11:50 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:13:25 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:13:25 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:13:37 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:13:38 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:14:06 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:14:06 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:14:15 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 128ms (Views: 127.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:14:15 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:14:23 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:14:23 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:14:34 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:14:34 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:16:48 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:16:48 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-18 16:17:44 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:17:55 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:17:55 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:20:08 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 67ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:20:26 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:20:26 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:20:55 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 64ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:20:55 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:21:25 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:21:25 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:23:08 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:23:20 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:23:29 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:23:29 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:23:55 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:23:55 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-18 16:23:58 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1" for 127.0.0.1 at 2014-04-18 16:26:19 -0400
+Processing by CountriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered countries/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1/meal" for 127.0.0.1 at 2014-04-18 16:26:23 -0400
+Processing by MealsController#show as HTML
+  Parameters: {"country_id"=>"1"}
+  Rendered meals/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1" for 127.0.0.1 at 2014-04-18 16:26:30 -0400
+Processing by CountriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered countries/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1" for 127.0.0.1 at 2014-04-18 16:26:50 -0400
+Processing by CountriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered countries/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1" for 127.0.0.1 at 2014-04-18 16:26:58 -0400
+Processing by CountriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered countries/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <%= @country.name %>
+  app/views/countries/show.html.erb:1:in `_app_views_countries_show_html_erb___606301944181205502_70233463020120'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/countries/1" for 127.0.0.1 at 2014-04-18 16:27:31 -0400
+Processing by CountriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered countries/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <%= @country.name %>
+  app/views/countries/show.html.erb:1:in `_app_views_countries_show_html_erb___606301944181205502_70233463020120'
+
+
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/lauren/.gem/ruby/2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/countries/1" for 127.0.0.1 at 2014-04-18 16:27:47 -0400
+Processing by CountriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered countries/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1" for 127.0.0.1 at 2014-04-18 16:28:17 -0400
+Processing by CountriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCountry Load (11.3ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", "1"]]
+  Rendered countries/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 99ms (Views: 9.7ms | ActiveRecord: 67.5ms)
+
+
+Started GET "/countries/1" for 127.0.0.1 at 2014-04-18 16:28:46 -0400
+Processing by CountriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  Rendered countries/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 67ms (Views: 51.9ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:28:49 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap" for 127.0.0.1 at 2014-04-18 16:28:49 -0400
+Processing by WorldmapController#index as HTML
+  Rendered worldmap/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldmap.json" for 127.0.0.1 at 2014-04-18 16:28:50 -0400
+Processing by WorldmapController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries/1" for 127.0.0.1 at 2014-04-18 16:28:54 -0400
+Processing by CountriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCountry Load (0.5ms)[0m  SELECT "countries".* FROM "countries" WHERE "countries"."id" = $1 LIMIT 1  [["id", "1"]]
+  Rendered countries/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.5ms)

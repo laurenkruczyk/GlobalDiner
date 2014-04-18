@@ -1,6 +1,7 @@
 @import 'foundation_and_overrides';
 @import 'foundation';
 @import 'map';
+@import 'jquery-jvectormap-1.2.2'
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,7 +14,6 @@
  *
  *= require_self
  *= require foundation_and_overrides
- *= require jquery-jvectormap-1.2.2
  *= require chosen
  *= require_tree .
  */

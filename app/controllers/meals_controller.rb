@@ -23,6 +23,6 @@ end
 
   private
   def meal_params
-    params.require(:meal).permit(:name, :url, :country_id)
+    params.require(:meal).permit(:id, :name, :url, :country_id)
   end
 end
