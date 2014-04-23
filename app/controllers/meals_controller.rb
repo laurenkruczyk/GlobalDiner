@@ -13,7 +13,7 @@ before_action :find_country
   def create
     @meal = @country.meals.build(meal_params)
     if @meal.save
-      redirect_to country_meals_path,
+      redirect_to @country,
       notice: 'Successfully created recipe'
     else
       render 'new',

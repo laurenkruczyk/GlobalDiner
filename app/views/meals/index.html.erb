@@ -1,19 +1,19 @@
     <div class="row">
 <h1 align="center"> Recipes </h1>
 
-    <table align="center" width="1000">
+    <table align="center" width="1050">
     <thead>
       <th width="400"> Country </th>
       <th width="400"> Recipes </th>
-      <th width="200"> Recipe Link </th>
+      <th width="200"> Description </th>
     </thead>
 
   <% @meals.each do |meal|%>
     <tbody>
       <tr>
-      <td width="400"><%= meal.country.name %></td>
-      <td width="400"><%= meal.name %></td>
-      <td width="200"><%= meal.url %></td>
+      <td width="225"><%= meal.country.name %></td>
+      <td width="225"><%= meal.name %></td>
+      <td width="600"><%= meal.description %></td>
       </tr>
         <% end %>
     </tbody>
