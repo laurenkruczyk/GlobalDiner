@@ -1,1 +1,26 @@
-<%= @country.name %>
+  <h1 align="center"><%= @country.name %></h1>
+
+    <table align= "center" width= "1000">
+    <thead>
+      <th> Recipes </th>
+      <th> Recipe Site </th>
+      <th> Description </th>
+      
+    </thead>
+
+  <% @meals.each do |meal|%>
+    <tbody>
+      <tr>
+      <td width="300"><%= meal.name %></td>
+      <td width="500"><%= meal.url %></td>
+      <td width="200"><%= meal.description %></td>
+      </tr>
+    <% end %>
+    </tbody>
+    </table>
+
+  <div align="center"><%= button_to "Add New Recipe", new_country_meal_path(@country.id), :class => "button medium, font medium", :method => :get  %></div>
+   
+
+
+

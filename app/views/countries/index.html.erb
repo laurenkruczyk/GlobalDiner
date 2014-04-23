@@ -1,13 +1,25 @@
-<p> Countries </p>
-<% @countries.each do |country| %>
-<body>
-  <div>
-    <ul>
-      <li type="none"> <%= country.name %>
-         : <%= country.iso %>
-      </li>
-    </ul>
-  </div>
-</body>
+ <h1 align="center"> Countries </h1>
 
-<% end %>
+    <table align="center" width="900">
+    <thead>
+      <th> ISO </th>
+      <th> Country </th>
+      <th> Recipe ID </th>
+      
+    </thead>
+
+  <% @countries.each do |country|%>
+    <tbody>
+     <tr>
+      <td width="275"><%= country.iso %></td>
+      <td width= "350"><%= country.name %></td>
+      <td width="275"><%= country.id %></td> 
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+</div>
+
+
+ 

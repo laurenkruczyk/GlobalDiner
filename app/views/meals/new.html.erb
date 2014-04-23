@@ -1,6 +1,17 @@
-<%= simple_form_for @meal do |f| %>
+      <ul>
+        <% if user_signed_in? %>
+          <%= "Welcome #{current_user.first_name}"%>
+        <% else %>
+         <%= render 'layouts/messages' %>  
+        <% end %>
+      </ul>
+
+<div class="row">
+<%= simple_form_for [@country, @meal] do |f| %>
   <%= f.input :name %>
   <%= f.input :url %>
+  <%= f.input :description %>
   <%= f.association :country, label_method: :name, input_html: {class: 'chosen'}, include_blank: false %>  
-  <%= f.submit  %>
+  <%= f.button :submit, :class => "button tiny" %>
 <% end %>
+</div>

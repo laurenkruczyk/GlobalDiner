@@ -7,6 +7,6 @@ end
 
 #  private
 #   def user_params
-#     params.require(:user).permit(:worldmap_id)
+#     params.require(:user).permit(:country_id, :meal_id)
 #   end
 # end

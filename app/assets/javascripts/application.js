@@ -19,5 +19,8 @@
 //= require_tree .
 
 $(function(){
-  $('.chosen').chosen();
+  $(".my_select_box").chosen({
+    allow_single_deselect: true,
+    placeholder_text_single: "Select a country",
+  });
 })

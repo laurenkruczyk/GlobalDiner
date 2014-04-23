@@ -1,5 +1,7 @@
 class MealsController < ApplicationController
 
+before_action :find_country
+
   def new
     @meal = Meal.new
   end
@@ -9,20 +11,29 @@ class MealsController < ApplicationController
   end
 
   def create
-    @meal = Meal.new(meal_params)
+    @meal = @country.meals.build(meal_params)
     if @meal.save
-      redirect_to meals_url, notice: 'Successfully created meal'
+      redirect_to country_meals_path,
+      notice: 'Successfully created recipe'
     else
-      render 'new'
+      render 'new',
+      notice: 'Recipe not created'
     end
-
+  end
+  
   def show
     @meal = Meal.find(params[:id])
   end
-end
 
-  private
+
+protected
+
+  def find_country
+    @country = Country.find(params[:country_id])
+  end
+
+
   def meal_params
-    params.require(:meal).permit(:id, :name, :url, :country_id)
+    params.require(:meal).permit(:name, :url, :description, :country_id).merge(user: current_user)
   end
 end
