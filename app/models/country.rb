@@ -6,4 +6,14 @@ class Country < ActiveRecord::Base
   belongs_to :worldmap
   has_many :meals
   # has_many :users
+  class << self
+    def meal_data
+      country_data = {}
+      countries = Country.includes(:meals)
+      countries.each do |country|
+        country_data[country.iso] = {id: country.id, meals: country.meals_count}
+      end
+      country_data
+    end
+  end
 end
