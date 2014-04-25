@@ -1,6 +1,6 @@
 var mapObject;
 var data;
-var palette = ['#35d3a7', '#1f7d63', '#4186d3', '#5fd3b3', '#689ad3', '#a8dba8', '#79bd9a', '#3b8686', '#92ed6b', '#6dc0d3', '#a6a6a6', '#00b0d2' ];
+var palette = ['#35d3a7', '#1f7d63', '#4186d3', '#5fd3b3', '#689ad3', '#a8dba8', '#79bd9a', '#3b8686', '#92ed6b', '#6dc0d3', '#a6a6a6', '#00b0d2', '#473eb9' ];
 
 function makeMap(){
   $.get('/worldmap.json', function(response){
@@ -61,7 +61,7 @@ function makeMap(){
 // }
 
 function tooltip(el, code){
-  el.html(el.html() + ' has ' + data[code].meals + ' delicious meals');
+  el.html(el.html() + ' has ' + data[code].meals + ' delicious recipes');
 }
 
 function regionClick(code){

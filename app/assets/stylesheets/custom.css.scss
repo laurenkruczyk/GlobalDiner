@@ -1,9 +1,17 @@
-/*/*body {
-  /*background-color:#C3FFE3;*/
-/*  text-align:center;
-  list-style-type: none;
+
+a:hover {
+  color:blue;
+  text-decoration:none;
 }
 
+
+.background {
+  background-image:url("world-background.jpg");
+  background-repeat:repeat;
+}
+
+
+/*
 .header {
   border-style:solid;
   border-width:10px;
