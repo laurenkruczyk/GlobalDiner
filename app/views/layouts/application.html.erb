@@ -5,11 +5,11 @@
    <body class= "background">
 
   <ul class="breadcrumbs">
-  <li><%= link_to 'Home', root_path %></li>
-  <li><%= link_to 'Countries', countries_path %></li>
-  <li><%= link_to 'World Map', worldmap_path %></li>
-  <li><%= link_to 'Sign Up',new_user_registration_path %></li>
-  <li><%= link_to 'Sign In', new_user_session_path %></li>
+  <li><%= link_to 'Home', root_path, method: :get %></li>
+  <li><%= link_to 'Countries', countries_path, method: :get %></li>
+  <li><%= link_to 'World Map', worldmap_path, method: :get %></li>
+  <li><%= link_to 'Sign Up',new_user_registration_path, method: :post %></li>
+  <li><%= link_to 'Sign In', new_user_session_path, method: :post %></li>
   <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
   </ul>
 
