@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- <div id="wrap">
+  <div id="main"> -->
+   <body class= "background">
+
+  <ul class="breadcrumbs">
+  <li><a href="/">Home</a></li>
+  <li><a href="/countries">Countries</a></li>
+  <li><a href="/worldmap">World Map</a></li>
+  <li><a href="/countries/1/meals">Recipes</a></li>
+  <li><a href="/users/sign_up">Sign Up</a></li>
+  <li><a href="/users/sign_in">Sign In</a></li>
+  <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
+  </ul>
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "Global Diner" %></title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
-  </head>
-
-  <body>
-    <nav>
-      <ul>
-     
-        <% if user_signed_in? %>
-          <%= "Welcome #{current_user.first_name}"%>
-         <li type="none"; align="center"> <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %> </li>
-        <% else %>
-          <li type="none", align="center"> <%= link_to 'Sign Up', new_user_registration_path %> </li>
-         <%= render 'layouts/messages' %>  
-        <% end %>
-      </ul>
-    </nav>
+   </head>
+    <body>
+ 
     <%= yield %>
     <%= javascript_include_tag "application" %>
     <%= yield :extra_footer %>
-  </body>
-</html>
+   </body>
+  </html>
+ </body>
+<!--  </div>
+</div>
+
+<div id="footer">
+     <div id="copyright">
+      Copyright © 2014 Gelp. All Rights Reserved.
+     </div>
+    <h6> Created by Lauren</h6>
+      <a href="https://github.com/laurenkruczyk"><%=image_tag('github-icon-1.png') %></a>
+  </div> -->

@@ -1,0 +1,19 @@
+<div class="row">
+<h1 align="center"> <%= @meal.country.name %> </h1>   
+    <table align="center">
+    <thead>
+      <th> Created </th>
+      <th> Recipes </th>
+      <th> Recipe Site </th>
+      
+    </thead>
+    <tbody>
+      <tr>
+      <td><%= @meal.created_at %></td>
+      <td><%= @meal.name %></td>
+      <td><%= @meal.url %></td>
+      </tr>
+    </tbody>
+    </table>
+  </div>
+       

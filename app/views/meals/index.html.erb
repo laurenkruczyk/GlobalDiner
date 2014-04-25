@@ -1,14 +1,21 @@
-<p>Meals</p>
+    <div class="row">
+<h1 align="center"> Recipes </h1>
 
-<% @meals.each do |meal| %>
-  <body>
-    <div>
-      <ul type="none">
-        <li> Recipe Name: <%= meal.name %></li>
-        <li> Recipe URL: <%= meal.url %></li>
-        <li> Country: <%= meal.country.name%></li>
-      </ul>
-    </div>
-  </body>
+    <table align="center" width="1050">
+    <thead>
+      <th width="400"> Country </th>
+      <th width="400"> Recipes </th>
+      <th width="200"> Description </th>
+    </thead>
 
-<% end %>
+  <% @meals.each do |meal|%>
+    <tbody>
+      <tr>
+      <td width="225"><%= meal.country.name %></td>
+      <td width="225"><%= meal.name %></td>
+      <td width="600"><%= meal.description %></td>
+      </tr>
+        <% end %>
+    </tbody>
+    </table>
+  </div>

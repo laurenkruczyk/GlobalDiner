@@ -11,7 +11,7 @@ class CountriesController < ApplicationController
   def create
     @country = Country.new(country_params)
     if @country.save
-      redirect_to country_meal_url, notice: 'Successfully created country'
+      redirect_to @country, notice: 'Successfully created country'
     else
       render 'new'
     end
@@ -19,11 +19,13 @@ class CountriesController < ApplicationController
 
   def show
     @country = Country.find(params[:id])
+    @meals = Meal.where(country_id: @country.id)
   end
 
+
 private
-  def meal_params
-    params.require(:country).permit(:id, :name, :iso)
+  def country_params
+    params.require(:country).permit(:name, :iso)
  end
 end
 

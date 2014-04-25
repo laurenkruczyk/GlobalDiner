@@ -5,15 +5,19 @@ GlobalDiner::Application.routes.draw do
     root "welcome#index"
 
   resources :countries do
-     resource :meal
+     resources :meals 
    end
 
-  resources :meals
+   # resources :meals
+
 
   get 'worldmap' => 'worldmap#index'
   
 
-  namespace :admin do
+    namespace :admin do
+    resources :users, only: [:index, :destroy]
+    resources :meals, only: [:destroy]
+
       get 'home' => "home#index" 
   end
 end

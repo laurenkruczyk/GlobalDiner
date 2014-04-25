@@ -1,20 +1,18 @@
-
-<body align="center">
-
-<div class=header>
-
-<h1 style="border:10px solid #B31212; color:#B31212;">WELCOME TO GLOBAL DINER</h1>
-
-</div>
-
-<div class=image><%=image_tag "foods.jpg" %></div>
-
-</body>
+<div id='world-map'></div>
+<!-- <div id='map-colors'></div> -->
+<% content_for :extra_footer do %>
+<script>
+$(function(){
+  makeMap();
+});
+</script>
+<% end %> 
 
 
 
+<!-- <div class=image><%=image_tag "foods.jpg" %></div> -->
 
-<!-- <p>Map Your Meals</p> -->
+
 
 
 

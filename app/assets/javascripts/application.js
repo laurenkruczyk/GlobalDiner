@@ -15,9 +15,13 @@
 //= require vendor/jquery-jvectormap-1.2.2.min
 //= require maps/world-map 
 //= require chosen-jquery
+//= require typographies/jquery.lettering
 //= require maps/map
 //= require_tree .
 
 $(function(){
-  $('.chosen').chosen();
+  $(".my_select_box").chosen({
+    allow_single_deselect: true,
+    placeholder_text_single: "Select a country",
+  });
 })
