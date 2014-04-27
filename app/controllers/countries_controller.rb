@@ -22,8 +22,6 @@ class CountriesController < ApplicationController
     @meals = Meal.where(country_id: @country.id)
   end
 
-
-
 private
   def country_params
     params.require(:country).permit(:name, :iso)
