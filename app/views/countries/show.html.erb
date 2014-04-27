@@ -4,19 +4,19 @@
     <thead>
       <th> Recipes </th>
       <th> Description </th>
-      <th> Recipe Site </th>
+      <th> Recipes </th>
       
     </thead>
 
   <% @meals.each do |meal|%>
-    <tbody>
-      <tr>
-      <td width="275"><%= meal.name %></td>
-      <td width="500"><%= meal.description %></td>
-      <td width="275"><%= meal.url %></td>
-      </tr>
-    <% end %>
-    </tbody>
+      <tbody>
+        <tr>
+        <td width="275"><%= meal.name %></td>
+        <td width="500"><%= meal.description %></td>
+        <td width="275"><%= link_to "View recipe", meal.url %></td>
+        </tr>
+      <% end %>
+      </tbody>
     </table>
 
   <div align="center"><%= button_to "Add New Recipe", new_country_meal_path(@country.id), :class => "button medium, font medium", :method => :get  %></div>

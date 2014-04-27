@@ -288,8 +288,8 @@ $align-block-grid-to-grid: true;
 $crumb-bg: #C3FFDF;
 
 // We use these to set the padding around the breadcrumbs.
-$crumb-padding: rem-calc(13 20 13);
-$crumb-side-padding: rem-calc(14);
+$crumb-padding: rem-calc(12 19 12);
+$crumb-side-padding: rem-calc(13);
 
 // We use these to control border styles.
 // $crumb-function-factor: -10%;
@@ -299,7 +299,7 @@ $crumb-border-style: solid;
 // $crumb-radius: $global-radius;
 
 // We use these to set various text styles for breadcrumbs.
-$crumb-font-size: rem-calc(13);
+$crumb-font-size: rem-calc(12);
 $crumb-font-color: #248F83;
 // $crumb-font-color-current: #333;
 // $crumb-font-color-unavailable: #999;

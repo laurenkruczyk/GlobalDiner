@@ -8,8 +8,6 @@ GlobalDiner::Application.routes.draw do
      resources :meals 
    end
 
-   # resources :meals
-
 
   get 'worldmap' => 'worldmap#index'
   

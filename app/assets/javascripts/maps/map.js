@@ -1,11 +1,11 @@
 var mapObject;
 var data;
-var palette = ['#35d3a7', '#1f7d63', '#4186d3', '#5fd3b3', '#689ad3', '#a8dba8', '#79bd9a', '#3b8686', '#92ed6b', '#6dc0d3', '#a6a6a6', '#00b0d2', '#473eb9' ];
+var palette = ["#3643B2", "#27FF9B", "#02A68D", "#00FFFF", "#007BEB"];
 
 function makeMap(){
   $.get('/worldmap.json', function(response){
   $('#world-map').vectorMap({
-    backgroundColor: '#0A3C7D',
+    backgroundColor: '#27B0D6',
     regionsSelectable: true,
 
     // onRegionOut: function(event, code){
@@ -37,10 +37,20 @@ function makeMap(){
     regions = response.regions;
     mapObject = $('#world-map').vectorMap('get', 'mapObject');
     for(var country in mapObject.regions){
-      mapObject.regions[country].element.style.hover.fill = palette[Math.floor(Math.random() * palette.length)];
+      mapObject.regions[country].element.style.initial.fill = palette[Math.floor(Math.random() * palette.length)];
     }
     })
   }
+
+
+  //     data = response.data;
+  //   regions = response.regions;
+  //   mapObject = $('#world-map').vectorMap('get', 'mapObject');
+  //   for(var country in mapObject.regions){
+  //     mapObject.regions[country].element.style.hover.fill = palette[Math.floor(Math.random() * palette.length)];
+  //   }
+  //   })
+  // }
 
   //  function getRandomColor(code) {
   //   palette = ['#b31212', '#ff3333', '#fb9d34', '#a8bf12', '#009b9d'];
