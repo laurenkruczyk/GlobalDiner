@@ -14,12 +14,4 @@ class Meal < ActiveRecord::Base
       self.limit(1).order("RANDOM()").take
     end
   end
-
-
-  # def randomizer
-  #   self.limit(1).order("RANDOM()")
-  # end
-  # <li><%= link_to "Recipe Randomizer", Meal.randomizer%></li>
 end
-
-

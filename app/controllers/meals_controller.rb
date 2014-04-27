@@ -22,8 +22,13 @@ before_action :find_country, except: [:random]
   end
   
   def show
-    @meal = Meal.find(params[:id])
+    if params[:id] == 'random'
+       @meal = Meal.random
+    else
+      @meal = Meal.find(params[:id])
+    end
   end
+  
 
   def random
     @meal = Meal.random
