@@ -1,9 +1,11 @@
-<div id='world-map'></div>
-<!-- <div id='map-colors'></div> -->
-<% content_for :extra_footer do %>
-<script>
-$(function(){
-  makeMap();
-});
-</script>
-<% end %> 
+<body id="mapbackground">
+
+  <div id='world-map'></div>
+  <% content_for :extra_footer do %>
+    <script>
+    $(function(){
+      makeMap();
+    });
+    </script>
+  <% end %> 
+</body>

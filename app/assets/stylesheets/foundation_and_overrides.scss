@@ -299,7 +299,7 @@ $crumb-border-style: solid;
 // $crumb-radius: $global-radius;
 
 // We use these to set various text styles for breadcrumbs.
-$crumb-font-size: rem-calc(12);
+$crumb-font-size: rem-calc(13);
 $crumb-font-color: #248F83;
 // $crumb-font-color-current: #333;
 // $crumb-font-color-unavailable: #999;
@@ -308,7 +308,7 @@ $crumb-link-decor: none;
 
 // We use these to control the slash between breadcrumbs
 $crumb-slash-color: #35478C;
-// $crumb-slash: "/";
+$crumb-slash: "";
 
 //
 // BUTTONS
@@ -1041,19 +1041,19 @@ $table-even-row-bg: #f9f9f9;
 // These control the table cell border style
 $table-border-style: solid;
 $table-border-size: 2px;
-$table-border-color: #3B8686;
+$table-border-color: #0B26BC;
 
 // These control the table head styles
-$table-head-bg: #F8F7F7;
+// $table-head-bg: #0B26BC;
 $table-head-font-size: rem-calc(16);
-$table-head-font-color: #3B8686;
+$table-head-font-color: #0B26BC;
 $table-head-font-weight: bold;
 $table-head-padding: rem-calc(8 10 10);
 
 // These control the row padding and font styles
 $table-row-padding: rem-calc(8 9);
 $table-row-font-size: rem-calc(18);
-$table-row-font-color: #3B8686;
+$table-row-font-color: #9BA3A3;
 $table-line-height: rem-calc(20);
 
 // These are for controlling the display and margin of tables

@@ -1,3 +1,8 @@
+<div id="wrap">
+  <div id="main">
+
+  <body class= "background">
+
   <h1 align="center"><%= @country.name %></h1>
 
     <table align= "center" width= "1050">
@@ -13,13 +18,26 @@
         <tr>
         <td width="275"><%= meal.name %></td>
         <td width="500"><%= meal.description %></td>
-        <td width="275"><%= link_to "View recipe", meal.url %></td>
+        <td width="275"><p><%= link_to "View recipe", meal.url %></p></td>
         </tr>
       <% end %>
       </tbody>
     </table>
 
   <div align="center"><%= button_to "Add New Recipe", new_country_meal_path(@country.id), :class => "button medium, font medium", :method => :get  %></div>
+</body>
+
+
+  </div>
+ </div>
+
+    <div id="footer">
+        <li><a href="https://www.twitter/kruzicle"><%=image_tag(image_path('twitter-icon.png')) %></a> <a href="https://github.com/laurenkruczyk"><%=image_tag(image_path('github-icon-1.png')) %></a> <a href="https://www.linkedin.com/in/laurenkruczyk"><%=image_tag(image_path('linkedin_icon.png')) %></a></li>
+
+      <div id="copyright">
+        Copyright © 2014 Global Diner. All Rights Reserved.
+       </div>
+    </div> 
    
 
 

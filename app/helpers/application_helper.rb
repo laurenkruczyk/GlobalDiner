@@ -1,6 +1,8 @@
 module ApplicationHelper
-#   def body_class
-#     "#{countries.CountriesController} #{countries.CountriesController} - #{countries.show}"
-#   end
+  
+  # def randomizer
+  #   Meal.limit(1).order("RANDOM()")
+  #   # Meal.find(Meal.pluck(:id).sample)
+  # end
 end
 

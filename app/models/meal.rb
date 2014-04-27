@@ -8,12 +8,12 @@ class Meal < ActiveRecord::Base
 
   belongs_to :country, counter_cache: true
   belongs_to :user
-end
 
- 
-def randomizer
-  Meal.limit(1).order("RANDOM()")
-  # Meal.find(Meal.pluck(:id).sample)
+
+  # def randomizer
+  #   self.limit(1).order("RANDOM()")
+  # end
+  # <li><%= link_to "Recipe Randomizer", Meal.randomizer%></li>
 end
 
 

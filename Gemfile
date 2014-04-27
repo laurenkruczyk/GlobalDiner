@@ -9,6 +9,10 @@ gem 'pg'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+ gem 'sass-rails', '~> 4.0.2'
+ gem 'uglifier', '>= 1.3.0'
+ gem 'coffee-rails', '~> 4.0.0'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
@@ -41,12 +45,6 @@ group :production do
   gem 'rails_12factor'
 end
 
-group :assets do
-  gem 'sass-rails', '~> 4.0.2'
-  gem 'uglifier', '>= 1.3.0'
-  gem 'coffee-rails', '~> 4.0.0'
-  gem 'foundation-icons-sass-rails'
-end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

@@ -1,9 +1,8 @@
 @import 'foundation_and_overrides';
-@import 'foundation';
-@import 'foundation-icons';
 @import 'map';
 @import 'jquery-jvectormap-1.2.2';
 @import 'custom'
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -17,6 +16,7 @@
  *= require_self
  *= require foundation_and_overrides
  *= require custom
+ *= require classyfooter
  *= require chosen
  *= require_tree .
  */
