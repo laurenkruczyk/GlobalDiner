@@ -3,21 +3,21 @@
 
 
   <ul class="breadcrumbs">
+      <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
+      <li><%= image_tag (image_path("globe.png")) %></li>
+       <li><%= link_to 'Sign Up', new_user_registration_path, method: :get %></li>
+      <li><%= image_tag (image_path("globe.png")) %></li>
+      <li><%= link_to 'Sign In', new_user_session_path, method: :get %></li>
       <li><%= image_tag (image_path("globe.png")) %></li>
       <li><%= link_to 'Global Diner', root_path, method: :get %></li>
       <li><%= image_tag (image_path("globe.png")) %></li>
-      <li><%= link_to 'World Map', worldmap_path, method: :get %></li>
+      <li><%= link_to 'World Recipes', root_path, method: :get %></li>
       <li><%= image_tag (image_path("globe.png")) %></li>
-    <% if user_signed_in? %>
-      <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
+      <li><%= link_to 'Recipe Scrambler', root_path, method: :get %></li>
       <li><%= image_tag (image_path("globe.png")) %></li>
-    <%else%>
-      <li><%= link_to 'Sign Up',new_user_registration_path, method: :post%></li>
-      <li><%= image_tag (image_path("globe.png")) %></li>
-      <li><%= link_to 'Sign In', new_user_session_path, method: :post %></li>
-      <li><%= image_tag (image_path("globe.png")) %></li>
-    <%end%>
-  </ul>
+      </ul>
+ 
+   
 
   <head>
     <meta charset="utf-8" />
@@ -36,4 +36,5 @@
     <%= yield :extra_footer %>
    </body>
   </html>
+
 
