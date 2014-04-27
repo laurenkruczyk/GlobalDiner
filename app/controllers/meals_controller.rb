@@ -1,6 +1,6 @@
 class MealsController < ApplicationController
 
-before_action :find_country
+before_action :find_country, except: [:random]
 
   def new
     @meal = Meal.new
@@ -23,6 +23,11 @@ before_action :find_country
   
   def show
     @meal = Meal.find(params[:id])
+  end
+
+  def random
+    @meal = Meal.random
+    redirect_to country_meal_path(@meal.country, @meal)
   end
 
 

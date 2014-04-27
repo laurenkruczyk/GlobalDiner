@@ -9,6 +9,12 @@ class Meal < ActiveRecord::Base
   belongs_to :country, counter_cache: true
   belongs_to :user
 
+  class << self
+    def random
+      self.limit(1).order("RANDOM()").take
+    end
+  end
+
 
   # def randomizer
   #   self.limit(1).order("RANDOM()")
