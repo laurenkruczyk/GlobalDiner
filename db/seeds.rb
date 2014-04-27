@@ -12,3 +12,24 @@ CSV.foreach(countries, headers: true) do |row|
   Country.find_or_create_by(name: row['name'], iso: row['iso'])
 end
 
+user = User.where(email: 'lauren.kruczyk@gmail.com').take
+meals = [
+  {
+    name: 'tasty dish',
+    url: 'www.tastydish.com',
+    description: 'the tastiest dish in the history of mankind',
+    country: Country.where(name: 'Australia').take,
+    user: user
+  },
+  {
+    name: 'untasty dish',
+    url: 'untastydish.com',
+    description: 'does not taste good',
+    country: Country.where(name: 'Russia').take,
+    user: user
+  }
+]
+ 
+meals.each do |meal|
+  Meal.find_or_create_by(meal)
+end

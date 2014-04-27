@@ -10,10 +10,9 @@ class Meal < ActiveRecord::Base
   belongs_to :user
 
 
-  # def randomizer
-  #   self.limit(1).order("RANDOM()")
-  # end
-  # <li><%= link_to "Recipe Randomizer", Meal.randomizer%></li>
+ def self.random
+    Meal.limit(1).order("RANDOM()").take
+  end
 end
 
 
