@@ -7,7 +7,7 @@
       <li><%= image_tag (image_path("globe.png")) %></li>
       <li><%= link_to 'World Cuisine', root_path, method: :get %></li>
       <li><%= image_tag (image_path("globe.png")) %></li>
-      <li><%= link_to 'Shake it Up', country_meal_path('random', 'random') %></li>
+      <li><%= link_to 'Shake it Up', random_meals_path, method: :get %></li>
       <li><%= image_tag (image_path("globe.png")) %></li>
     <% if user_signed_in? %>
        <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>

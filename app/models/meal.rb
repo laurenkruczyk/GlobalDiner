@@ -9,10 +9,9 @@ class Meal < ActiveRecord::Base
   belongs_to :country, counter_cache: true
   belongs_to :user
 
-
- def self.random
-    Meal.limit(1).order("RANDOM()").take
+  class << self
+    def random
+      self.limit(1).order("RANDOM()").take
+    end
   end
 end
-
-

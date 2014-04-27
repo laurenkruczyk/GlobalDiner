@@ -6,7 +6,13 @@ GlobalDiner::Application.routes.draw do
 
   resources :countries do
      resources :meals 
-   end
+  end
+
+  resources :meals, only: [] do
+    collection do
+      get 'random'
+    end
+  end
 
 
   get 'worldmap' => 'worldmap#index'
