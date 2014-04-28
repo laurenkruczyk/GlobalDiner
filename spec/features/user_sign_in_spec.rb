@@ -11,6 +11,7 @@ feature 'user sign in', %Q{
     @user = FactoryGirl.create(:user)
     visit new_user_session_path
   end
+  
   scenario 'user provides valid information and signs in successfully' do
     fill_in 'Email', with: @user.email
     fill_in 'Password', with: @user.password
