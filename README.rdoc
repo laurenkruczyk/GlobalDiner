@@ -6,8 +6,8 @@ My Breakable Toy at Launch Academy
 http://globaldiner.herokuapp.com/
 
 A site for adventurous eaters who love food! Also for those who just want to fill the map with pretty colors. 
-Hover to color the map, click any country and you will be directed to recipes native to that country. 
-Click on 'World Cuisine' if you'd list a list of recipes from around the world.
+Hover to color the map, and click on any country to be directed to recipes native to that country. 
+Click on 'World Cuisine' if you'd like a list of recipes from around the world.
 Click on 'Spice it Up!' if you'd like to try something new! 
 
 Built using JavaScript, jQuery, Ruby, CSS, HTML using Rails
