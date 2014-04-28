@@ -5,7 +5,7 @@ class CreateMeals < ActiveRecord::Migration
       t.integer :user_id, null: false
       t.string :name, null: false
       t.string :url, null: false
-      t.text :description
+      t.text :description, null: false
 
       t.timestamps
     end
