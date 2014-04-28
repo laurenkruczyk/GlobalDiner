@@ -71,7 +71,12 @@ function makeMap(){
 // }
 
 function tooltip(el, code){
-  el.html(el.html() + ' has ' + data[code].meals + ' delicious recipes');
+  if (data[code].meals){
+    description = ' has ' + data[code].meals + ' delicious recipes'
+  } else {
+    description = ' has no delicious recipes ... yet'
+  }
+  el.html(el.html() + description);
 }
 
 function regionClick(code){
