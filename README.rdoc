@@ -1,6 +1,7 @@
-README
 
-April 2014
+GLOBAL DINER
+
+Created April 2014:
 My Breakable Toy at Launch Academy 
 
 http://globaldiner.herokuapp.com/
