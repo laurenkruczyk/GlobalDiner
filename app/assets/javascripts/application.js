@@ -16,7 +16,10 @@
 //= require maps/world-map 
 //= require chosen-jquery
 //= require maps/map
+//= require foundation
 //= require_tree .
+
+$(function(){ $(document).foundation(); });
 
 $(function(){
   $(".my_select_box").chosen({

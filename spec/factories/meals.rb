@@ -1,6 +1,11 @@
-# Read about factories at https://github.com/thoughtbot/factory_girl
 
 FactoryGirl.define do
   factory :meal do
+    name "tasty pizza"
+    url "www.meal.com"
+    description "nice and cheesy"
+    user
+    country
   end
 end
+
