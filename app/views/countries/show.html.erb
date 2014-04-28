@@ -1,6 +1,16 @@
 <div id="wrap">
   <div id="main">
 
+   <nav>
+      <ul>
+        <% if user_signed_in? %>
+          <%= "Welcome #{current_user.first_name}"%>
+          <%else%>
+         <%= "Sign in to submit a recipe!" %>  
+          <% end %>
+      </ul>
+    </nav>
+
   <body class= "background">
 
   <h1 align="center"><%= @country.name %></h1>

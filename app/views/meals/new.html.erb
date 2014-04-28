@@ -7,7 +7,7 @@
         <% if user_signed_in? %>
           <%= "Welcome #{current_user.first_name}"%>
         <% else %>
-         <%= render 'layouts/messages' %>  
+         <%= 'Please sign in to submit your recipe' %>  
         <% end %>
       </ul>
 

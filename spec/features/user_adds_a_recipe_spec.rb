@@ -8,7 +8,7 @@ feature "User adds a recipe", %Q{
 
   before :each do
     @country = FactoryGirl.build(:country)
-    visit new_country_meal_path 
+    visit new_country_meal_path
         # Failure/Error: visit new_country_meal_path
         # ActionController::UrlGenerationError:
         # No route matches {:action=>"new", :controller=>"meals"} 
@@ -23,12 +23,13 @@ feature "User adds a recipe", %Q{
     fill_in "Description", with: @meal.description
     select "India", from: 'Country'
 
+    expect(page).to have_content ("Sign in to submit a recipe!")
     click_on "Create Meal"
 
     expect(page).to have_content (@meal.name)
     expect(page).to have_content (@meal.url)
     expect(page).to have_content (@meal.description)
-    expect(page).to have_content ("Successfully created meal.")
+    expect(page).to have_content ("Successfully created recipe")
     expect(Meal.count).to eq prev_count + 1
   end
 
@@ -38,6 +39,7 @@ feature "User adds a recipe", %Q{
      fill_in "Name", with: @meal.name
      click_on "Create Meal"
 
+     expect(page).to have_content ("Recipe not created")
      expect(page).to have_content ("can't be blank")
    end
   end

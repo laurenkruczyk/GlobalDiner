@@ -1,5 +1,14 @@
 <body id="mapbackground">
 
+ <nav>
+      <p>
+        <% if user_signed_in? %>
+          <%= "Welcome #{current_user.first_name}"%>
+          <%end %>
+         <%= render 'layouts/messages' %>  
+      </p>
+    </nav>
+
   <div id='world-map'></div>
   <% content_for :extra_footer do %>
     <script>

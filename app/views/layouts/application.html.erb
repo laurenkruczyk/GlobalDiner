@@ -32,14 +32,15 @@
   <% end %>
   </ul>
 
-   <nav>
+   <!-- <nav>
       <p>
         <% if user_signed_in? %>
           <%= "Welcome #{current_user.first_name}"%>
-          <%end %>
-         <%= render 'layouts/messages' %>  
+          <%else %>
+         <%= render 'layouts/messages' %> 
+         <% end %> 
       </p>
-    </nav>
+    </nav> -->
 
 <%= yield %>
 <%= javascript_include_tag "application" %>
