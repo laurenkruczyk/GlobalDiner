@@ -1,6 +1,6 @@
 class MealsController < ApplicationController
 
-before_action :find_country, except: [:random]
+before_action :find_country, except: [:random ]
 
   def new
     @meal = Meal.new
@@ -30,6 +30,7 @@ before_action :find_country, except: [:random]
     @meal = Meal.random
     redirect_to country_meal_path(@meal.country, @meal)
   end
+
 
 
 protected

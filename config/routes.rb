@@ -8,6 +8,7 @@ GlobalDiner::Application.routes.draw do
      resources :meals 
   end
 
+
   resources :meals, only: [] do
     collection do
       get 'random'
