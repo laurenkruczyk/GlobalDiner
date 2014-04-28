@@ -6,40 +6,40 @@ feature "User adds a recipe", %Q{
   So I can contribute a tasty dish to the site
 } do
 
-  before :each do
-    @country = FactoryGirl.build(:country)
-    visit new_country_meal_path
-        # Failure/Error: visit new_country_meal_path
-        # ActionController::UrlGenerationError:
-        # No route matches {:action=>"new", :controller=>"meals"} 
-        # missing required keys: [:country_id]
+
+  let!(:country) {FactoryGirl.create(:country)}
+  let!(:user) {FactoryGirl.create(:user)}
+  before :each do 
+    visit new_country_meal_path(country)
   end
 
-
   scenario "With valid attributes" do
+    prev_count = Meal.count
+    sign_in_as(user)
+    visit new_country_meal_path(country)
 
-    fill_in "Name", with: @meal.name
-    fill_in "Url", with: @meal.url
-    fill_in "Description", with: @meal.description
-    select "India", from: 'Country'
+    fill_in "Name", with: 'Yummy'
+    fill_in "Url", with: 'yummy.com'
+    fill_in "Description", with: 'yummy yummy yummy'
+    select country.name, from: 'Country'
 
-    expect(page).to have_content ("Sign in to submit a recipe!")
     click_on "Create Meal"
 
-    expect(page).to have_content (@meal.name)
-    expect(page).to have_content (@meal.url)
-    expect(page).to have_content (@meal.description)
-    expect(page).to have_content ("Successfully created recipe")
-    expect(Meal.count).to eq prev_count + 1
+    expect(page).to have_content('Yummy')
+    expect(page).to have_content('View recipe')
+    expect(page).to have_content('yummy yummy yummy')    
+    # expect(page).to have_content("Successfully created recipe")
+    expect(Meal.count).to eq(prev_count + 1)
   end
 
   scenario "without required attributes" do
      click_on "Create Meal"
-     expect(page).to have_content ("can't be blank")
-     fill_in "Name", with: @meal.name
+     expect(page).to have_content("can't be blank")
+     fill_in "Name", with: 'yummy dish'
      click_on "Create Meal"
 
-     expect(page).to have_content ("Recipe not created")
-     expect(page).to have_content ("can't be blank")
+     expect(page).to have_content("Urlcan't be blank")
+     expect(page).to have_content("Descriptioncan't be blank")
+     expect(page).to have_content("can't be blank")
    end
   end

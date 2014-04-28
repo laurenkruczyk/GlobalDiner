@@ -1,4 +1,6 @@
 <div class="row">
+  <body class= "background">
+
 <h2>Resend unlock instructions</h2>
 
 <%= simple_form_for(resource, as: resource_name, url: unlock_path(resource_name), html: { method: :post }) do |f| %>
@@ -12,7 +14,9 @@
   <div class="form-actions">
     <%= f.button :submit, "Resend unlock instructions" %>
   </div>
-<% end %>
+ <% end %>
+</body>
+
 
 <%= render "devise/shared/links" %>
 </div>

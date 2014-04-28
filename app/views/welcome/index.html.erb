@@ -1,13 +1,13 @@
 <body id="mapbackground">
 
- <nav>
+    <nav>
       <p>
         <%= render 'layouts/messages' %> 
       </p>
       <p>
-        <% if user_signed_in? %>
-          <%= "Welcome #{current_user.first_name}"%>
-          <%end %> 
+      <% if user_signed_in? %>
+        <%= "Welcome #{current_user.first_name}"%>
+        <%end %> 
       </p>
     </nav>
 
@@ -21,9 +21,6 @@
   <% end %> 
 </body>
 
-
-
-<!-- <div class=image><%=image_tag "foods.jpg" %></div> -->
 
 
 

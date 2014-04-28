@@ -5,7 +5,7 @@ class Country < ActiveRecord::Base
 
   belongs_to :worldmap
   has_many :meals
-  # has_many :users
+  
   class << self
     def meal_data
       country_data = {}

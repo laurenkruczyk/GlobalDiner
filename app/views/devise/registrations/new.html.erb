@@ -1,4 +1,8 @@
-<div class=row>
+<div id="wrap">
+  <div id="main">
+    <div class="row">
+     <body class= "background">
+
 <h2>Sign up</h2>
 
 <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -17,6 +21,18 @@
     <%= f.button :submit, "Sign up" %>
   </div>
 <% end %>
+</body>
 
 <%= render "devise/shared/links" %>
 </div>
+
+ </div>
+    </div>
+
+    <div id="footer">
+        <a href="https://www.twitter.com/kruzicle"><%=image_tag(image_path('twitter-icon.png')) %></a> <a href="https://github.com/laurenkruczyk"><%=image_tag(image_path('github-icon-1.png')) %></a> <a href="https://www.linkedin.com/in/laurenkruczyk"><%=image_tag(image_path('linkedin_icon.png')) %></a>
+
+      <div id="copyright">
+        Copyright © 2014 Global Diner. All Rights Reserved.
+       </div>
+    </div> 
