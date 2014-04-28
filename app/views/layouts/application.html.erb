@@ -11,12 +11,12 @@
 <%= csrf_meta_tags %>
 </head>
 
-<!-- <a href= "http://globaldiner.herokuapp.com/countries/1/meals">World Cuisine </a> -->
+<!-- <a href= "http://localhost:3000/countries/1/meals"> -->
 <body>
   <ul class="breadcrumbs">
     <li><%= link_to 'Global Diner', root_path, method: :get %></li>
     <li><%= image_tag (image_path("globe.png")) %></li>
-    <li><a href= "http://localhost:3000/countries/1/meals">World Cuisine </a></li>
+    <li><a href= "http://globaldiner.herokuapp.com/countries/1/meals">World Cuisine </a></li>
     <li><%= image_tag (image_path("globe.png")) %></li>
     <li><%= link_to 'Spice it Up', random_meals_path, method: :get %></li>
     <li><%= image_tag (image_path("globe.png")) %></li>
