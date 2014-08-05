@@ -1,0 +1,11 @@
+<body id="mapbackground">
+
+  <div id='world-map'></div>
+  <% content_for :extra_footer do %>
+    <script>
+    $(function(){
+      makeMap();
+    });
+    </script>
+  <% end %> 
+</body>

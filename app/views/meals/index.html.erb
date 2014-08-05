@@ -1,0 +1,50 @@
+<div id="wrap">
+  <div id="main">
+
+ <body class= "background">
+
+  <nav>
+      <ul>
+        <% if user_signed_in? %>
+          <%= "Welcome #{current_user.first_name}"%>
+          <% end %>  
+      </ul>
+    </nav>
+
+  <div class="row">
+   <h1 align="center"> Around the World </h1>
+
+    <table width="1050">
+    <thead>
+      <th> Where? </th>
+      <!-- <th> Serve it Up! </th> -->
+      <th> Let's Dish! </th>
+      <th> So what's it like? </th>
+      <th> Take me there! </th>
+    </thead>
+
+  <% @meals.each do |meal|%>
+    <tbody>
+      <tr>
+      <td width="150"><%= meal.country.name %></td>
+      <!-- <td width="200"><%= meal.image %></td> -->
+      <td width="200"><%= meal.name %></td>
+      <td width="500"><%= meal.description %></td>
+      <td width="200"><%= link_to "View Recipe", meal.url %></td> 
+      </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+ </div>
+    </div>
+
+    <div id="footer">
+        <a href="https://www.twitter.com/kruzicle"><%=image_tag(image_path('twitter-icon.png')) %></a> <a href="https://github.com/laurenkruczyk"><%=image_tag(image_path('github-icon-1.png')) %></a> <a href="https://www.linkedin.com/in/laurenkruczyk"><%=image_tag(image_path('linkedin_icon.png')) %></a>
+
+      <div id="copyright">
+        Copyright © 2014 Global Diner. All Rights Reserved.
+       </div>
+    </div> 

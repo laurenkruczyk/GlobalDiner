@@ -1,0 +1,44 @@
+<body id="mapbackground">
+
+    <nav>
+      <p>
+        <%= render 'layouts/messages' %> 
+      </p>
+      <p>
+      <% if user_signed_in? %>
+        <%= "Welcome #{current_user.first_name}"%>
+        <%end %> 
+      </p>
+    </nav>
+
+  <div id='world-map'></div>
+  <% content_for :extra_footer do %>
+    <script>
+    $(function(){
+      makeMap();
+    });
+    </script>
+  <% end %> 
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
