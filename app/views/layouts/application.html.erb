@@ -19,6 +19,7 @@
     <li><a href= "http://globaldiner.herokuapp.com/countries/1/meals">World Cuisine</a> / Let's travel! </li>
     <li><%= image_tag (image_path("globe.png")) %></li>
     <li><%= link_to 'Spice it Up', random_meals_path, method: :get %>   /  A gourmet adventure </li>
+    <li><%= link_to 'Spice it Up', random_meals_path, method: :get %>   /  A new gourmet adventure each time </li>
     <li><%= image_tag (image_path("globe.png")) %></li>
   <% if user_signed_in? %>
       <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
@@ -30,7 +31,6 @@
     <li><%= image_tag (image_path("globe.png")) %></li>
   <% end %>
   </ul>
-
 
 
    <!-- <nav>

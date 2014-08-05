@@ -8,6 +8,7 @@ function makeMap(){
     backgroundColor: '#27B0D6',
     regionsSelectable: true,
 
+
     onRegionClick: function(event, code){
       regionClick(code);
     },
@@ -36,8 +37,6 @@ function makeMap(){
     })
   }
 
-
-
 function tooltip(el, code){
   if (data[code].meals){
     description = ' has ' + data[code].meals + ' delicious recipes'
@@ -50,6 +49,8 @@ function tooltip(el, code){
 function regionClick(code){
   window.location = 'countries/' + data[code].id 
 }
+
+
 
 
 
