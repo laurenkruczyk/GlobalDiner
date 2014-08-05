@@ -26,3 +26,4 @@ GlobalDiner::Application.routes.draw do
       get 'home' => "home#index" 
   end
 end
+

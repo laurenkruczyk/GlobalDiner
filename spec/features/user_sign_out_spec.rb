@@ -18,3 +18,4 @@ feature 'user sign out', %Q{
 
   end
 end
+

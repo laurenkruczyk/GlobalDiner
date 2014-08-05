@@ -6,3 +6,4 @@ describe User do
   it {should validate_presence_of(:email)}
   it {should have_many(:meals).dependent(:nullify)}
 end
+

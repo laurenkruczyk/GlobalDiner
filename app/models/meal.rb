@@ -16,3 +16,4 @@ class Meal < ActiveRecord::Base
     end
   end
 end
+

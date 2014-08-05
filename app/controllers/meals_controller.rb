@@ -32,7 +32,6 @@ before_action :find_country, except: [:random ]
   end
 
 
-
 protected
 
   def find_country
@@ -44,3 +43,5 @@ protected
     params.require(:meal).permit(:name, :url, :description, :country_id).merge(user: current_user)
   end
 end
+
+
